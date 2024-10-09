@@ -3,12 +3,12 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title><% = RESTAURANT.name %> - <%= categoryName %></title>
+  <title><%= category %></title>
 
-  <%- include(./partials/nav') %>
+  <%- include('./partials/nav') %>
 </head>
 <body>
-  <h1><%= RESTAURANT.name %> - categoryName %></h1>
+  <h1><%= category %></h1>
 
   <ul>
     <% menuItems.forEach(item => { %> 
